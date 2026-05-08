@@ -1,9 +1,12 @@
 aid: excalidraw
 url: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/apis.yml
 name: Excalidraw
-x-type: company
+x-type: opensource
 description: >-
-  Excalidraw is an open-source virtual whiteboard with a hand-drawn aesthetic. Real-time collaboration, end-to-end encryption (Excalidraw+), and embeddable libraries.
+  Excalidraw is an MIT-licensed virtual whiteboard with a hand-drawn aesthetic. Primary
+  surfaces are the hosted web app at excalidraw.com and the @excalidraw/excalidraw npm
+  package for embedding the canvas in other apps. There is no public REST API.
+  Excalidraw+ is the commercial managed offering.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Collaboration
@@ -14,10 +17,38 @@ tags:
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: excalidraw:excalidraw-npm-package
+    name: '@excalidraw/excalidraw npm Package'
+    humanURL: https://docs.excalidraw.com/
+    baseURL: npm package (no network endpoint)
+    tags:
+      - SDK
+      - React
+      - Library
+    description: >-
+      The official React component package for embedding the Excalidraw canvas. Provides
+      programmatic control over scene state, libraries, and serialized JSON. There is no
+      Excalidraw REST API; integrations are component-level.
+    properties:
+      - type: Documentation
+        url: https://docs.excalidraw.com/
+      - type: SourceCode
+        url: https://github.com/excalidraw/excalidraw
+      - type: NPM
+        url: https://www.npmjs.com/package/@excalidraw/excalidraw
 common:
   - type: Website
     url: https://excalidraw.com/
+  - type: Documentation
+    url: https://docs.excalidraw.com/
+  - type: SourceCode
+    url: https://github.com/excalidraw/excalidraw
+  - type: License
+    url: https://github.com/excalidraw/excalidraw/blob/master/LICENSE
+  - type: CommercialOffering
+    title: Excalidraw+
+    url: https://plus.excalidraw.com/
   - type: Plans
     url: plans/excalidraw-plans-pricing.yml
   - type: RateLimits
