@@ -1,0 +1,29 @@
+aid: excalidraw
+url: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/apis.yml
+name: Excalidraw
+x-type: company
+description: >-
+  Excalidraw is an open-source virtual whiteboard with a hand-drawn aesthetic. Real-time collaboration, end-to-end encryption (Excalidraw+), and embeddable libraries.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Collaboration
+  - Whiteboard
+  - Diagramming
+  - Open Source
+  - Drawing
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://excalidraw.com/
+  - type: Plans
+    url: plans/excalidraw-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/excalidraw-rate-limits.yml
+  - type: FinOps
+    url: finops/excalidraw-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
