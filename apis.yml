@@ -1,7 +1,7 @@
 aid: excalidraw
 url: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/apis.yml
 name: Excalidraw
-x-type: opensource
+kind: opensource
 description: >-
   Excalidraw is an MIT-licensed virtual whiteboard with a hand-drawn aesthetic. Primary
   surfaces are the hosted web app at excalidraw.com and the @excalidraw/excalidraw npm
