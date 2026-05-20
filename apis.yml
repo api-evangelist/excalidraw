@@ -38,6 +38,8 @@ apis:
       - type: NPM
         url: https://www.npmjs.com/package/@excalidraw/excalidraw
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/excalidraw
   - type: Website
     url: https://excalidraw.com/
   - type: Documentation
