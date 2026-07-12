@@ -38,6 +38,8 @@ apis:
       - type: NPM
         url: https://www.npmjs.com/package/@excalidraw/excalidraw
 common:
+  - type: DomainSecurity
+    url: security/excalidraw-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/excalidraw
   - type: Website
@@ -57,6 +59,8 @@ common:
     url: rate-limits/excalidraw-rate-limits.yml
   - type: FinOps
     url: finops/excalidraw-finops.yml
+  - type: Blog
+    url: https://plus.excalidraw.com/feed.xml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
