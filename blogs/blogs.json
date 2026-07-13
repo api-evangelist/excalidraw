@@ -1,0 +1,13 @@
+{
+  "repo": "excalidraw",
+  "feeds": [
+    {
+      "source": "https://blog.excalidraw.com/",
+      "feed_url": "https://plus.excalidraw.com/feed.xml",
+      "title": "Excalidraw Plus RSS Feed",
+      "saved": 0
+    }
+  ],
+  "fetched": "2026-07-11T11:43:46Z",
+  "post_count": 20
+}
