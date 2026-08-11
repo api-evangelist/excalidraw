@@ -50,6 +50,12 @@ apis:
       - type: NPM
         url: https://www.npmjs.com/package/@excalidraw/excalidraw
 common:
+  - type: IssueTracker
+    url: https://github.com/excalidraw/excalidraw/issues
+  - type: Releases
+    url: https://github.com/excalidraw/excalidraw/releases
+  - type: ContributionGuide
+    url: https://github.com/excalidraw/excalidraw/blob/master/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/excalidraw-domain-security.yml
   - type: LinkedIn
