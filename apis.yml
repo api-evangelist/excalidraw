@@ -7,6 +7,18 @@ description: >-
   surfaces are the hosted web app at excalidraw.com and the @excalidraw/excalidraw npm
   package for embedding the canvas in other apps. There is no public REST API.
   Excalidraw+ is the commercial managed offering.
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
