@@ -16,14 +16,18 @@ deployment:
 tools_count: 5
 tools:
 - name: read_me
-  description: ''
+  description: Returns the Excalidraw element format reference with color palettes, examples, and tips.
+    Call this BEFORE using create_view for the first time.
 - name: create_view
-  description: ''
+  description: Renders a hand-drawn diagram using Excalidraw elements. Elements stream in one by one with
+    draw-on animations. Call read_me first to learn the element format.
 - name: export_to_excalidraw
-  description: ''
+  description: Upload diagram to excalidraw.com and return shareable URL.
 - name: save_checkpoint
-  description: ''
+  description: Update checkpoint with user-edited state.
 - name: read_checkpoint
-  description: ''
+  description: Read checkpoint state for restore.
 tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
 authorship: provider
+descriptions_source: live tools/list (authorship probe or saved capture); filled by backfill-tools-from-authorship.py
+  --descriptions, 2026-09-28
