@@ -8,16 +8,21 @@ description: >-
   package for embedding the canvas in other apps. There is no public REST API.
   Excalidraw+ is the commercial managed offering.
 deliveryModel:
-  model: unknown
-  open_source: unknown
+  model: open-core
+  license: MIT
+  license_evidence:
+    repo: excalidraw/excalidraw
+    spdx: MIT
+    stars: 132875
+  open_source: true
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
-  confidence: low
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: medium
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-license
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -32,11 +37,14 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/excalidraw.png
+x-docs-platform: docusaurus
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
   - Collaboration
   - Whiteboard
   - Diagramming
-  - Open-Source
+  - Open Source
   - Drawing
 tags_raw:
   - Collaboration
@@ -44,6 +52,7 @@ tags_raw:
   - Diagramming
   - Open Source
   - Drawing
+  - Open-Source
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.23'
