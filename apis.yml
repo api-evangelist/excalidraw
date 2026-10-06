@@ -54,7 +54,7 @@ tags_raw:
   - Drawing
   - Open-Source
 created: '2026-05-08'
-modified: '2026-05-08'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: excalidraw:excalidraw-npm-package
@@ -77,6 +77,8 @@ apis:
       - type: NPM
         url: https://www.npmjs.com/package/@excalidraw/excalidraw
 common:
+  - url: https://plus.excalidraw.com/blog
+    type: Blog
   - type: IssueTracker
     url: https://github.com/excalidraw/excalidraw/issues
   - type: Releases
