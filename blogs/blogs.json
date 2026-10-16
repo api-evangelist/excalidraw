@@ -2,15 +2,21 @@
   "repo": "excalidraw",
   "feeds": [
     {
-      "source": "https://blog.excalidraw.com/",
-      "feed_url": "https://plus.excalidraw.com/feed.xml",
-      "title": "Excalidraw Plus RSS Feed",
+      "source": "https://plus.excalidraw.com/blog",
+      "feed_url": "https://plus.excalidraw.com/blog",
+      "title": "",
       "saved": 0,
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
+      "method": "none"
+    },
+    {
+      "source": "https://plus.excalidraw.com/feed.xml",
+      "feed_url": "https://plus.excalidraw.com/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "fetched": "2026-10-03T12:15:37Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 20,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
